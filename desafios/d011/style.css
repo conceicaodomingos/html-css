@@ -1,14 +1,19 @@
+@charset "UTF-8";
+
 header{
     background-color: black;
     color: white;
     text-align: center;
 }
+
 main{
 
 }
+
 p{
     font-family: ;
 }
+
 footer{
     background-color: black;
     color: white;
