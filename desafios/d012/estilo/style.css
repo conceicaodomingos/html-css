@@ -6,17 +6,62 @@
     font-weight: normal;
 }
 
-:root{
-    --fonte-padrao: Arial, Verdana, Helvetica, Sans-serif;
-    --fonte-destaque: cursive ;
+*{
+    padding: 0px;
+    margin: 0px;
 }
 
-header{
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+header {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 0px;
-    margin: 0px;
+    padding: 50px;
+}
+
+header > h1 {
+    font-variant: small-caps;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgb(73, 73, 73);
+    color: white;
+}
+
+section.imagem > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.267);
+}
+
+:root{
+    --fonte-padrao: Arial, Verdana, Helvetica, Sans-serif;
+    --fonte-destaque: cursive ;
 }
 
 main{
@@ -31,6 +76,5 @@ footer{
     background-color: black;
     color: white;
     text-align: center;
-    padding: 0px;
-    margin: 0px;
+    padding: 10px;
 }
